@@ -65,10 +65,11 @@ h1 {
 /* INFO */
 .info {
   padding:15px;
+  text-align:center;
 }
 
 .nome {
-  font-size:14px;
+  font-size:15px;
   font-weight:bold;
   margin-bottom:5px;
 }
@@ -77,18 +78,21 @@ h1 {
   color:#ff3c00;
   font-weight:bold;
   margin-bottom:10px;
+  font-size:16px;
 }
 
 /* BOTÃO */
 .btn {
-  padding:10px;
+  padding:12px;
   background:#ff3c00;
   color:white;
   border:none;
-  border-radius:6px;
+  border-radius:8px;
   cursor:pointer;
   width:100%;
   font-weight:bold;
+  font-size:14px;
+  transition:0.2s;
 }
 
 .btn:hover {
@@ -99,6 +103,10 @@ h1 {
 @media(min-width:768px){
   .card {
     width:240px;
+  }
+
+  .logo {
+    height:140px;
   }
 }
 </style>
@@ -121,7 +129,7 @@ h1 {
       <div class="nome">Camiseta Indonesia</div>
       <div class="preco">R$ 119,90</div>
       <a href="https://wa.me/5511942785956?text=Olá%20quero%20comprar%20a%20Camiseta%20Indonesia" target="_blank">
-        <button class="btn">Comprar no WhatsApp</button>
+        <button class="btn">Chamar no WhatsApp</button>
       </a>
     </div>
   </div>
@@ -132,7 +140,7 @@ h1 {
       <div class="nome">Camiseta Tailandia</div>
       <div class="preco">R$ 119,90</div>
       <a href="https://wa.me/5511942785956?text=Olá%20quero%20comprar%20a%20Camiseta%20Tailandia" target="_blank">
-        <button class="btn">Comprar no WhatsApp</button>
+        <button class="btn">Chamar no WhatsApp</button>
       </a>
     </div>
   </div>
@@ -142,13 +150,16 @@ h1 {
     <div class="info">
       <div class="nome">Camiseta Brasil</div>
       <div class="preco">R$ 119,90</div>
-      <a href="https://wa.me/5511942785956?text=Olá%20quero%20comprar%20a%20Camiseta%20Rio" target="_blank">
-        <button class="btn">Comprar no WhatsApp</button>
+      <a href="https://wa.me/5511942785956?text=Olá%20quero%20comprar%20a%20Camiseta%20Brasil" target="_blank">
+        <button class="btn">Chamar no WhatsApp</button>
       </a>
     </div>
   </div>
 
 </section>
-
+<footer>
+  <p>© 2018 - 2026 TravelWear. Todos os direitos reservados.</p>
+  <p>Marca registrada e protegida por direitos autorais.</p>
+</footer>
 </body>
 </html>
